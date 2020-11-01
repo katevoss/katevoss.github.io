@@ -1,5 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>Who am I?</h1>
+    <p>Welcome to my website. This started as a travel blog many years ago and has grown into a general personal website with blog posts and photos and stories.</p>
   </div>
 </template>
