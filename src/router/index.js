@@ -3,26 +3,26 @@ import Home from "../views/Home.vue";
 import About from "@/views/About.vue";
 
 const routes = [
-    {
-        path: "/",
-        name: "Home",
-        component: Home,
-    },
-    {
-        path: "/about",
-        name: "About",
-        component: About,
-    },
-    // {
-    //     path: "/blog",
-    //     name: "Blog",
-    //     component: Blog,
-    // },
+  {
+    path: "/",
+    name: "Home",
+    component: Home
+  },
+  {
+    path: "/about",
+    name: "About",
+    component: About
+  }
+  // {
+  //     path: "/blog",
+  //     name: "Blog",
+  //     component: Blog,
+  // },
 ];
 
 const router = createRouter({
-    history: createWebHashHistory(),
-    routes,
+  history: createWebHashHistory(),
+  routes
 });
 
 export default router;
